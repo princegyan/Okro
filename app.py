@@ -19,6 +19,7 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for, flash, send_from_directory
 from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import freqModules as fq
 import generator as gen
 import benford as bf
